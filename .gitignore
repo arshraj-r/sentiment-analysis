@@ -1,0 +1,53 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VSCode settings
+.vscode/
+
+# PyCharm project settings
+.idea/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variable files
+.env
+.env.*
+
+# Output and logs
+*.log
+*.out
+*.tmp
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Jupyter runtime
+*.nbconvert.ipynb
+
+# MyPy and Pyright
+.mypy_cache/
+.pyright/
+
+# Checkpoints and backup
+*.bak
+*.swp
+
+# Token cache (e.g., huggingface)
+~/.cache/huggingface/
+
+# VSCode notebooks
+*.ipynb-jupyter/
