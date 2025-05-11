@@ -12,9 +12,9 @@ def load_data():
 
     final_df=pd.concat([test_df,train_df],ignore_index=True)
     print(f"shape of the dats is:{final_df.shape}")
-    final_df.to_parquet("train.parquet", compression="snappy")
+    # final_df.to_parquet("train.parquet", compression="snappy")
     print("Data saved to parquet")
-    # final_df.to_csv("train.csv", index=False)
+    final_df.to_csv("train.csv", index=False)
 
 if __name__=="__main__":
     load_data()

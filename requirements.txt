@@ -5,3 +5,4 @@ accelerate>=0.23.0
 scipy
 numpy
 pandas
+bertopic[all]
